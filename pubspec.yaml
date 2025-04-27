@@ -1,35 +1,19 @@
-name: auth_app
-description: "A new Flutter project with Supabase authentication."
+name: slice
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
 
-# Define la versión y el entorno para la aplicación Flutter
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: ^3.7.2
 
-# Dependencias que tu aplicación necesita
 dependencies:
   flutter:
     sdk: flutter
-  
-  # Supabase para la autenticación y la base de datos
-  supabase_flutter: ^2.8.4
-  
-  # Para gestionar imágenes
-  flutter_svg: ^2.0.9
-  image_picker: ^1.0.7
-  
-  # Iconos y widgets de Material Design
-  cupertino_icons: ^1.0.6
 
-# Dependencias solo para desarrollo
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^5.0.0
 
-# Configuración de Flutter
 flutter:
   uses-material-design: true
-  
-  # Agregar assets (imágenes, iconos, etc.)
-  # assets:
-  #   - assets/images/
